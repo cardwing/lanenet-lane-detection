@@ -19,7 +19,7 @@ import tensorflow as tf
 import loguru
 
 from local_utils.config_utils import parse_config_utils
-from data_provider import tf_io_pipline_tools
+import tf_io_pipline_tools
 
 CFG = parse_config_utils.lanenet_cfg
 LOG = loguru.logger
